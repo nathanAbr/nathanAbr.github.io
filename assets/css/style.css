@@ -1,0 +1,139 @@
+@keyframes anim{
+	0%{
+		width: 10px;
+		background-color: red;
+		margin: auto;
+	}
+	100%{
+		width: 100%;
+		background-color: blue;
+		margin: auto;
+	}
+}
+
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-image: url(../img/fond.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#block_page{
+	width: 80%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+#animation{
+	margin: auto;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: red;
+	animation: anim 2s linear 0s infinite alternate;
+}
+
+.sous-menu{
+	display: none;
+}
+
+.sous-sous-menu{
+	display: none;
+}
+
+nav{
+	margin: auto;
+}
+
+ul{
+	padding: 0;
+}
+
+h1, h2, h3{
+	color: white;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+	color: white;
+}
+
+ul li a{
+	color: white;
+}
+
+ul li:hover{
+	background-color: #205369;
+}
+
+ul li:hover a{
+	color: white;
+}
+
+ul .sous-menu-lien:hover .sous-menu{
+	position: absolute;
+	display: block;
+	margin: 0;
+	background-color: #205369;
+	color: white;
+	z-index: 10;
+}
+
+#liste-recap{
+	display: block;
+}
+
+#liste-recap a{
+	color: black;
+}
+
+.sous-sous-menu-lien:hover .sous-sous-menu{
+	position: absolute;
+	display: block;
+	margin-left: 90%;
+	margin-top: -20px;
+	background-color: #205369;
+	color: white;
+	z-index: 10;
+}
+
+.sous-menu li{
+	display: block;
+	background-color: #205369;
+}
+
+.sous-menu li a{
+	display: block;
+	background-color: #205369;
+	color: white;
+}
+
+.sous-sous-menu li a{
+	display: block;
+	background-color: #205369;
+	color: white;
+}
+
+section{
+	background-color: #DDD;
+	opacity: 0.9;
+	margin: 10px;
+}
+
+section h1, section h2, section h3{
+	color: black;
+}
+
+footer{
+	background-color: yellow;
+}
+
+table td{
+	border: 1px solid black;
+}

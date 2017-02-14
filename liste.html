@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mon premier site HTML</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	</head>
+	
+	<body>
+		<main id="block_page">
+			<header>
+				<h1>Récapitulatif</h1>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li class="sous-menu-lien">
+							PAGE
+							<ul class="sous-menu">
+								<li><a href="#">Page 1</a></li>
+								<li><a href="page2.html">Récapitulatif</a></li>
+								<li><a href="table.html">Tableau</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="animation"></div>
+			
+			<section id="home">
+				<h2>Liste</h2>
+			</section>
+			
+			<section id="contenu">
+				<article>
+					<p>Il existe 3 type de listes qui permettent de créer des listes à puces, ou numérotées, ou de définitions.</p>
+				</article>
+				<article id="ul">
+					<h3>UL</h3>
+					<p>La balise &lt;ul&gt; permet de définir une liste à puce.</p>
+				</article>
+				<article id="ol">
+					<h3>OL</h3>
+					<p>La balise &lt;ol&gt; permet de définir une liste numérotée.</p>
+				</article>
+				<article>
+					<h4 id="li">LI</h4>
+					<p>La balise &lt;li&gt; permet de définir les éléments qui seront présents au sein des balises &lt;ul&gt; ou &lt;ol&gt;.</p>
+				</article>
+				<article>
+					<h4>Exemple :</h4>
+					<code>
+						<p>
+							&lt;ul&gt;
+							&lt;li&gt;Contenu&lt;/li&gt;
+							&lt;li&gt;Contenu&lt;/li&gt;
+							&lt;/ul&gt;
+						</p>
+						<p>
+							&lt;ol&gt;
+							&lt;li&gt;Contenu&lt;/li&gt;
+							&lt;li&gt;Contenu&lt;/li&gt;
+							&lt;/ol&gt;
+						</p>
+					</code>
+				</article>
+				<article id="dl">
+					<h3>DL</h3>
+					<p>La balise &lt;dl&gt; permet de définir une liste de définitions.</p>
+				</article>
+				<article>
+					<h4 id="dt">DT</h4>
+					<p>La balise &lt;dt&gt; permet de définir un élément référence de la liste de définitions.</p>
+				</article>
+				<article>
+					<h4 id="dd">DD</h4>
+					<p>La balise &lt;dd&gt; permet de définir la définitions de l'élément référence contenu dans la balise &lt;dt&gt; précédente.</p>
+				</article>
+				<article>
+					<h4>Exemple :</h4>
+					<code>
+						<p>
+							&lt;dl&gt;
+							&lt;dt&gt;Contenu&lt;/dt&gt;
+							&lt;dd&gt;hVUuyrvuqbruvbquierbvqiugriuqybrubquyerbyQBREVBQUERVUQEBRUVBubvrqyuruyBUVBQURBUSBUGBSUYB&lt;/dd&gt;
+							&lt;dt&gt;Contenu2&lt;/dt&gt;
+							&lt;dd&gt;hfyrnvheyybrucjnfh&lt;/dd&gt;
+							&lt;/dl&gt;
+						</p>
+					</code>
+				</article>
+			</section>
+
+			<footer>
+				<p>Copyright &copy; 2017 - Itechsup</p>
+			</footer>
+		</main>
+	</body>
+	
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mon premier site HTML</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	</head>
+	
+	<body>
+		<main id="block_page">
+			<header>
+				<h1>Récapitulatif</h1>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li class="sous-menu-lien">
+							PAGE
+							<ul class="sous-menu">
+								<li><a href="#">Page 1</a></li>
+								<li><a href="page2.html">Récapitulatif</a></li>
+								<li><a href="table.html">Tableau</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="animation"></div>
+			
+			<section id="home">
+				<h1>Les tableaux</h1>
+			</section>
+			
+			<section id="contenu">
+				<article id="table">
+					<h2>Table</h2>
+					<p>La balise &lt;table&gt; permet de générer des tableaux.</p>
+					<code>&lt;table&gt;&lt;/table&gt;</code>
+				</article>
+				<article id="thead">
+					<h3>En-tête</h3>
+					<p>La balise &lt;thead&gt; permet de générer l'en-tête d'un tableau.</p>
+					<code>&lt;table&gt;&lt;thead&gt;&lt;/thead&gt;&lt;/table&gt;</code>
+				</article>
+				<article id="trth">
+					<h3>Ligne et cellule d'en-tête</h3>
+					<p>Les balises &lt;tr&gt; (table row) et &lt;th&gt; (table header) permettent de créer la ligne et les cellules de cette ligne pour l'en-tête d'un tableau</p>
+					<code>&lt;table&gt;</br>&lt;thead&gt;</br>&lt;tr&gt;</br>&lt;th&gt;&lt;/th&gt;</br>&lt;/tr&gt;</br>&lt;/thead&gt;</br>&lt;/table&gt;</code>
+				</article>
+				<article id="tbody">
+					<h3>Corps du tableau</h3>
+					<p>La balise &lt;tbody&gt; permet de générer le corps du tableau.</p>
+					<code>&lt;table&gt;</br>&lt;tbody&gt;&lt;/tbody&gt;</br>&lt;/table&gt;</code>
+				</article>
+				<article id="trtd">
+					<h3>Ligne d'un tableau</h3>
+					<p>Les balises &lt;tr&gt; (table row) et &lt;td&gt; permettent de créer les lignes et les cellules pour le corps d'un tableau</p>
+					<code>&lt;table&gt;</br>&lt;tbody&gt;</br>&lt;tr&gt;</br>&lt;td&gt;&lt;/td&gt;</br>&lt;/tr&gt;</br>&lt;/tbody&gt;</br>&lt;/table&gt;</code>
+				</article>
+				<article id="tfoot">
+					<h3>Pied de tableau</h3>
+					<p>La balise &lt;tfoot&gt; permet de générer le pied d'un tableau.</p>
+					<code>&lt;table&gt;&lt;tfoot&gt;&lt;/tfoot&gt;&lt;/table&gt;</code>
+				</article>
+				<article id="trtdtf">
+					<h3>Ligne d'un tableau</h3>
+					<p>Les balises &lt;tr&gt; (table row) et &lt;td&gt; permettent de créer les lignes et les cellules pour le pied d'un tableau</p>
+					<code>&lt;table&gt;</br>&lt;tfoot&gt;</br>&lt;tr&gt;</br>&lt;td&gt;&lt;/td&gt;</br>&lt;/tr&gt;</br>&lt;/tfoot&gt;</br>&lt;/table&gt;</code>
+				</article>
+			</section>
+			
+			<footer>
+				<p>Copyright &copy; 2017 - Itechsup</p>
+			</footer>
+		</main>
+	</body>
+	
+</html>

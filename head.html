@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mon premier site HTML</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	</head>
+	
+	<body>
+		<main id="block_page">
+			<header>
+				<h1>Récapitulatif</h1>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li class="sous-menu-lien">
+							PAGE
+							<ul class="sous-menu">
+								<li><a href="#">Page 1</a></li>
+								<li><a href="page2.html">Récapitulatif</a></li>
+								<li><a href="table.html">Tableau</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="animation"></div>
+			
+			<section id="home">
+				<h2>HEAD</h2>
+			</section>
+			
+			<section id="contenu">
+				<article>
+					<p>La balise HEAD contient des informations supplémentaires qui ne seront pas afficher au sein de notre page html.</p>
+				</article>
+				<article id="meta">
+					<h3>Meta</h3>
+					<p>La balise orpheline &lt;meta /&gt; permet de définir certains paramètres lors de la lecture de notre code par le naviguateur tel que l'encodage</p>
+					<h4>Exemple :</h4>
+					<code>
+						<p>
+							&lt;meta charset="&lt;!--encodage--&gt;" /&gt;
+						</p>
+					</code>
+				</article>
+				<article id="title">
+					<h3>Title</h3>
+					<p>La balise &lt;title&gt; permet de définir le titre de la page dans l'onglet du naviguateur</p>
+					<h4>Exemple :</h4>
+					<code>
+						<p>
+							&lt;title&gt; ton super titre &lt;/title&gt;
+						</p>
+					</code>
+				</article>
+			</section>
+
+			<footer>
+				<p>Copyright &copy; 2017 - Itechsup</p>
+			</footer>
+		</main>
+	</body>
+	
+</html>

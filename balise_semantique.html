@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon premier site HTML</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+</head>
+<body>
+<main id="block_page">
+    <header>
+        <h1>Récapitulatif</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li class="sous-menu-lien">
+                    PAGE
+                    <ul class="sous-menu">
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="page2.html">Récapitulatif</a></li>
+                        <li><a href="table.html">Tableau</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="animation"></div>
+
+    <section id="home">
+        <h2>Balises sémantiques</h2>
+        <details>L'intêret d'utiliser les balises sémantiques est de structurer correctement son code afin de faciliter le référencement naturel du site et permettre à des personnes nécéssitant l'utilisation de logiciel particulier de fonctionnner correctement.</details>
+    </section>
+
+    <section id="contenu">
+        <article>
+            <table class="pagetable">
+                <tbody>
+                <tr>
+                    <th style="width:20%">
+                        Nom</th>
+                    <th>
+                        Détails</th>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;section&gt;</strong></td>
+                    <td>Section générique regroupant un même sujet, une même fonctionnalité, de préférence avec un en-tête, ou bien section d'application web</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;article&gt;</strong></td>
+                    <td>Section de contenu indépendante, pouvant être extraite individuellement du document ou syndiquée (flux RSS ou équivalent), sans pénaliser sa compréhension</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;nav&gt;</strong></td>
+                    <td>Section possédant des liens de navigation principaux (au sein du document ou vers d'autres pages)</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;aside&gt;</strong></td>
+                    <td>Section dont le contenu est un complément par rapport à ce qui l'entoure, qui n'est pas forcément en lien direct avec le contenu mais qui peut apporter des informations supplémentaires.</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;header&gt;</strong></td>
+                    <td>Section d'introduction d'un article, d'une autre section ou du document entier (en-tête de page).</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;footer&gt;</strong></td>
+                    <td>Section de conclusion d'une section ou d'un article, voire du document entier (pied de page).</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;details&gt;</strong></td>
+                    <td>Section de details d'une section ou d'un article.</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;figure&gt;</strong></td>
+                    <td>Section d'une section ou d'un article, permettant de créer une figure.</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;figcaption&gt;</strong></td>
+                    <td>Légende d'une figure.</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;main&gt;</strong></td>
+                    <td>Section contenant le contenu principale de la page.</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;summary&gt;</strong></td>
+                    <td>Section de sommaire d'une section ou d'un article, voire du document entier (pied de page).</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;">
+                        <strong>&lt;time&gt;</strong></td>
+                    <td>Section d'informations temporelles d'une section ou d'un article, voire du document entier (pied de page).</td>
+                </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2017 - Itechsup</p>
+    </footer>
+</main>
+</body>
+</html>
