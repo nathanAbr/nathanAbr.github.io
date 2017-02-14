@@ -15,6 +15,7 @@ body{
 	font-family: sans-serif;
 	text-align: center;
 	background-image: url(../img/fond.gif);
+	background-color: purple;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
