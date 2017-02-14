@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mon premier site HTML</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	</head>
+	
+	<body>
+		<div id="block_page">
+			<header>
+				<h1>Récapitulatif</h1>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li class="sous-menu-lien">
+							PAGE
+							<ul class="sous-menu">
+								<li><a href="#">Page 1</a></li>
+								<li><a href="page2.html">Récapitulatif</a></li>
+								<li><a href="table.html">Tableau</a></li>
+								<li><a href="form.html">Formulaire</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="animation"></div>
+			
+			<section>
+				<h2>Formulaire</h2>
+			</section>
+			
+			<section>
+				<form action="" method="post">
+
+				<fieldset>
+				 <legend> A propos des CSS : </legend>
+					 <p>Savez-vous ce que veut dire CSS ? : </p>
+						 <input type="radio" name="CSS" value="oui" id="oui" checked="checked"> 
+						 <label for="oui" class="inline">oui</label>
+					 <input type="radio" name="CSS" value="non" id="non">
+					 <label for="non" class="inline">non</label>
+
+					<label for="utilise">Si oui, les utilisez-vous plutôt : </label>
+					 <select name="utilise" id="utilise">
+					 <option value="toujours"> toujours</option>
+					 <option value="parfois"> parfois</option>
+					 <option value="jamais"> jamais</option>
+					 </select>
+				</fieldset>
+
+				<fieldset>
+				 <legend>Vos coordonnées :</legend>
+					<label for="email">Votre email :</label>
+					 <input type="email" name="email" size="20" maxlength="40" value="email" id="email">
+
+					<label for="comments">Vos commentaires :</label>
+					 <textarea name="comments" id="comments" cols="20" rows="4">   </textarea>
+				</fieldset>
+
+				 <p>
+				 <input type="submit" value="Envoyer">
+				 <input type="reset" value="Annuler">
+				 </p>
+
+				</form>
+			</section>
+			
+			<footer>
+				<p>Copyright &copy; 2017 - Itechsup</p>
+			</footer>
+		</div>
+	</body>
+	
+</html>
