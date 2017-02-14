@@ -15,7 +15,7 @@ body{
 	font-family: sans-serif;
 	text-align: center;
 	background-image: url(../img/fond.gif);
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	background-color: #546841;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
